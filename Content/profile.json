@@ -28,11 +28,7 @@
 },
 "Project1": {
     "Title": "Bandpass Sallen Key IR Frequency Detector",
-    "Desc": "This project involved designing and implementing an active Sallen-Key bandpass filter used to condition signals from an infrared detection system. The filter was designed to pass signals within a specific frequency range corresponding to the modulated infrared signal while attenuating unwanted noise and ambient interference.
-
-The circuit uses an operational amplifier with resistors and capacitors configured in the Sallen-Key topology to create the desired center frequency and bandwidth. The filtered output signal is then fed into a comparator, which converts the analog signal into a digital output by detecting when the signal exceeds a specified threshold. This allows the system to reliably detect the presence of the infrared signal while rejecting noise and other frequency components.
-
-This project demonstrates practical applications of active filtering, signal conditioning, and analog-to-digital interfacing in optical sensing systems..",
+    "Desc": "This project involved designing and implementing an active Sallen-Key bandpass filter used to condition signals from an infrared detection system. The filter was designed to pass signals within a specific frequency range corresponding to the modulated infrared signal while attenuating unwanted noise and ambient interference. The circuit uses an operational amplifier with resistors and capacitors configured in the Sallen-Key topology to create the desired center frequency and bandwidth. The filtered output signal is then fed into a comparator, which converts the analog signal into a digital output by detecting when the signal exceeds a specified threshold. This allows the system to reliably detect the presence of the infrared signal while rejecting noise and other frequency components. This project demonstrates practical applications of active filtering, signal conditioning, and analog-to-digital interfacing in optical sensing systems..",
     "GitHubRepo": "https://github.com",
     "MainImage": "P1Main.png",
     "DetailImages": ["P1Detail1.png","P1Detail2.png","P1Detail3.png"]
