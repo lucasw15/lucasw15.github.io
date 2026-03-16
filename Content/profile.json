@@ -7,17 +7,17 @@
   "AboutText": "I'm an Electrical Engineering Major + Computer Engineering Minor and NCAA Division II athlete with a strong passion for problem-solving & technology.  Engineering has trained me to think analytically, work through complex systems, and build solutions through logic and creativity. I enjoy areas like circuit design, embedded systems, programming, and applied mathematics. Soccer has taught me discipline, leadership, and consistency. These skills directly translate into teamwork and performance in technical environments.  I'm always looking for opportunities where I can grow as an engineer, contribute to meaningful projects, and learn from strong teams. I take pride in being someone who shows up every day ready to work, improve, and compete at a high level!"
 },
 "Contact": {
-  "EMail": "zendejor@spu.edu",
-  "Phone": "(206) 555-5555",
-  "Portfolio": "https://www.github.com",
-  "LinkedIn": "https://linkedin.com",
-  "GitHub": "https://www.github.com"
+  "EMail": "witthauerl@spu.edu",
+  "Phone": "(360) 241-4852",
+  "Portfolio": "https://github.com/lucasw15",
+  "LinkedIn": "https://www.linkedin.com/in/lucaswitthauer/",
+  "GitHub": "https://github.com/lucasw15"
 },
 "Experience": {
   "ExperienceText": "Use this area to explain how you got to where you are and what you are currently doing now.<br><br>This is a good spot to talk yourself up.",
   "School": "Seattle Pacific University",
-  "Major": "Computer Science",
-  "Graduation": "June 2023",
+  "Major": "Electrical Engineering",
+  "Graduation": "June 2027",
   "EducationText": "Use this to add some narrative to your education section",
   "Employment": "Seattle Pacific University",
   "Role": "Computer Science Lab Assistant",
@@ -27,8 +27,12 @@
   "Resume": "Lucas Witthauer.docx"  
 },
 "Project1": {
-    "Title": "Interesting Project 1",
-    "Desc": "This is a description of Project One.<br><br>It has a GitHub repo and more details shown in screenshots.",
+    "Title": "Bandpass Sallen Key IR Frequency Detector",
+    "Desc": "This project involved designing and implementing an active Sallen-Key bandpass filter used to condition signals from an infrared detection system. The filter was designed to pass signals within a specific frequency range corresponding to the modulated infrared signal while attenuating unwanted noise and ambient interference.
+
+The circuit uses an operational amplifier with resistors and capacitors configured in the Sallen-Key topology to create the desired center frequency and bandwidth. The filtered output signal is then fed into a comparator, which converts the analog signal into a digital output by detecting when the signal exceeds a specified threshold. This allows the system to reliably detect the presence of the infrared signal while rejecting noise and other frequency components.
+
+This project demonstrates practical applications of active filtering, signal conditioning, and analog-to-digital interfacing in optical sensing systems..",
     "GitHubRepo": "https://github.com",
     "MainImage": "P1Main.png",
     "DetailImages": ["P1Detail1.png","P1Detail2.png","P1Detail3.png"]
