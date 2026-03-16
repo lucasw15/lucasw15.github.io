@@ -4,52 +4,7 @@
   "Currently": "Electrical/Computer Engineering Student",
   "Headshot": "IMG_9511.PNG",
   "Thumbnail": "student-logo.webp",
-  "AboutText": "Lucas Witthauer
-(360)-241-4852 | witthauerl@spu.edu | Seattle,WA www.linkedin.com/in/lucaswitthauer/
-
-Skills and Qualifications
-
-●	Proficient in programming languages such as C++, Java, Assembly, Python, and JavaScript
-●	Familiar with Software/technologies including Microsoft Suite, Arduino IDE, LTspice
-●	Ability to learn on the fly
-●	Concise communication skills
-
-Education
-Bachelor of Science in Electrical Engineering	Estimated Graduation June 2027
-Seattle Pacific University, WA
-●	GPA: 3.36
-●	Recipient of Andy Grove Scholarship For Intel Employees’ Children
-●	Relevant Courses: Calculus 1-3, LinAlg, Diff EQ, Physics 1-3, Object-Oriented Programming, Data Structures, Computer Login/Design, Circuits I-II, Computer Organization/Assembly Language, Electromagnetism, Electronics, Microcontrollers
-
-
-Relevant Experiences
-	
-IR Frequency Detector(Circuit)                                                                                                                                      March 2026
-
-I created a filter for a 10khz IR beam that requires 3 Bandpass Sallen-Key stages with Voltage Dividers on each. The output of the 3rd filter connects to a peak detector, which is then fed into an LM339 to control the logic behind detecting the 10khz signal regardless of other inputs, ultimately powering a single LED.
-
-Traffic Light(Digital Logic)                                                                                                                                        December 2025 
-
-I designed a traffic light using a bottom-up approach, beginning with the logic equations/gates to control the flow of a three-way intersection, then using these equations to build a physical circuit that powers 9 different LEDs based on the simulated queue of cars.
-
-Local LLM Server(AI/MLt)	March 2026 - Present
-
-I recently began working on creating a Local LLM Server with a Raspberry Pi 5. I will share more details as the project develops!
-
-
-
-Additional Experiences
-NCAA D2 II Soccer	August 2023 - Present
-Western Washington University – Seattle Pacific University
-●	Competing as an NCAA Division II student-athlete on the Seattle Pacific University Men’s Soccer Team, balancing 20+ hours per week of training, travel, and competition with full-time coursework.
-●	Demonstrating commitment, resilience, and time management by maintaining academic performance while competing at a collegiate level.
-●	Maintaining a team first mindset + Individual work ethic
-
-Front Desk                                                                                                                                                        July 2025 - Present
-Rose City Futsal - Portland, OR
-●	Managed player check-ins, registrations, and scheduling for leagues, camps, and field rentals. Exposed to product development and engineering consulting in the sustainability industry
-●	Utilized Excel, EZFacility, and PoS software to manage/track payments
-●	Responded efficiently to customer inquiries, resolving scheduling conflicts and assisting with facility coordination.
+  "AboutText": ""I'm an Electrical Engineering Major + Computer Engineering Minor and NCAA Division II athlete with a strong passion for problem-solving & technology.  Engineering has trained me to think analytically, work through complex systems, and build solutions through logic and creativity. I enjoy areas like circuit design, embedded systems, programming, and applied mathematics. Soccer has taught me discipline, leadership, and consistency. These skills directly translate into teamwork and performance in technical environments.  I'm always looking for opportunities where I can grow as an engineer, contribute to meaningful projects, and learn from strong teams. I take pride in being someone who shows up every day ready to work, improve, and compete at a high level!"
 "
 },
 "Contact": {
