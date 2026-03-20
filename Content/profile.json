@@ -29,22 +29,22 @@
 "Project1": {
     "Title": "Bandpass Sallen Key IR Frequency Detector",
     "Desc": "This project involved designing and implementing an active Sallen-Key bandpass filter used to condition signals from an infrared detection system. The filter was designed to pass signals within a specific frequency range corresponding to the modulated infrared signal while attenuating unwanted noise and ambient interference. The circuit uses an operational amplifier with resistors and capacitors configured in the Sallen-Key topology to create the desired center frequency and bandwidth. The filtered output signal is then fed into a comparator, which converts the analog signal into a digital output by detecting when the signal exceeds a specified threshold. This allows the system to reliably detect the presence of the infrared signal while rejecting noise and other frequency components. This project demonstrates practical applications of active filtering, signal conditioning, and analog-to-digital interfacing in optical sensing systems..",
-    "GitHubRepo": "https://github.com",
-    "MainImage": "P1Main.png",
-    "DetailImages": ["P1Detail1.png","P1Detail2.png","P1Detail3.png"]
+    "GitHubRepo": "",
+    "MainImage": "IMG_9408.JPG",
+    "DetailImages": ["IMG_9426.JPG","IMG_9456.JPG"]
   },
   "Project2": {
-    "Title": "Traffic Light",
-    "Desc": "This is a description of Project Two.<br><br>It also has a GitHub repo and more details shown in screenshots.",
-    "GitHubRepo": "https://github.com",
-    "MainImage": "P2Main.png",
-    "DetailImages": ["P2Detail1.png","P2Detail2.png","P2Detail3.png","P2Detail4.png"]
+    "Title": "",
+    "Desc": "",
+    "GitHubRepo": "",
+    "MainImage": "",
+    "DetailImages": ""
   },
   "Project3": {
-    "Title": "Interesting Project 3",
-    "Desc": "This is a description of Project Three.<br><br>It does not have a GitHub repo or any additional screenshots.",
+    "Title": "",
+    "Desc": "",
     "GitHubRepo": "",
-    "MainImage": "P3Main.png",
+    "MainImage": "",
     "DetailImages": []
   },
   "Project4": {
