@@ -34,7 +34,7 @@
     "DetailImages": ["P1Detail1.png","P1Detail2.png","P1Detail3.png"]
   },
   "Project2": {
-    "Title": "Interesting Project 2",
+    "Title": "Traffic Light",
     "Desc": "This is a description of Project Two.<br><br>It also has a GitHub repo and more details shown in screenshots.",
     "GitHubRepo": "https://github.com",
     "MainImage": "P2Main.png",
