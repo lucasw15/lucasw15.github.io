@@ -1,44 +1,61 @@
 {
-"About": {
-  "Name": "Lucas Witthauer",
-  "Currently": "Electrical/Computer Engineering Student",
-  "Headshot": "IMG_9620.png",
-  "Thumbnail": "student-logo.webp",
-  "AboutText": "I'm an Electrical Engineering Major + Computer Engineering Minor and NCAA Division II athlete with a strong passion for problem-solving & technology.  Engineering has trained me to think analytically, work through complex systems, and build solutions through logic and creativity. I enjoy areas like circuit design, embedded systems, programming, and applied mathematics. Soccer has taught me discipline, leadership, and consistency. These skills directly translate into teamwork and performance in technical environments.  I'm always looking for opportunities where I can grow as an engineer, contribute to meaningful projects, and learn from strong teams. I take pride in being someone who shows up every day ready to work, improve, and compete at a high level!"
-},
-"Contact": {
-  "EMail": "witthauerl@spu.edu",
-  "Phone": "(360) 241-4852",
-  "Portfolio": "https://github.com",
-  "LinkedIn": "https://www.linkedin.com/in/lucaswitthauer/",
-  "GitHub": "https://github.com/lucasw15"
-},
-"Experience": {
-  "ExperienceText": "Explain your background and current focus.",
-  "School": "Seattle Pacific University",
-  "Major": "Electrical Engineering",
-  "Graduation": "June 2027",
-  "EducationText": "GPA: 3.36. Andy Grove Scholarship recipient. Relevant courses include Calculus 1–3, Linear Algebra, Differential Equations, Physics 1–3, Object-Oriented Programming, Data Structures, Computer Logic/Design, Circuits I–II, Computer Organization/Assembly Language, Electromagnetism, Electronics, and Microcontrollers.",
-  "Employment": "Seattle Pacific University",
-  "Role": "",
-  "EmploymentText": "",
-  "Skills": [],
-  "SkillsText": "",
-  "Resume": "Lucas_Witthauer_Resume.docx"
-},
-"Project1": {
+  "About": {
+    "Name": "Lucas Witthauer",
+    "Currently": "Electrical/Computer Engineering Student",
+    "Headshot": "IMG_9620.png",
+    "Thumbnail": "student-logo.webp",
+    "AboutText": "I'm an Electrical Engineering Major + Computer Engineering Minor and NCAA Division II athlete with a strong passion for problem-solving & technology.  Engineering has trained me to think analytically, work through complex systems, and build solutions through logic and creativity. I enjoy areas like circuit design, embedded systems, programming, and applied mathematics. Soccer has taught me discipline, leadership, and consistency. These skills directly translate into teamwork and performance in technical environments.  I'm always looking for opportunities where I can grow as an engineer, contribute to meaningful projects, and learn from strong teams. I take pride in being someone who shows up every day ready to work, improve, and compete at a high level!"
+  },
+  "Contact": {
+    "EMail": "witthauerl@spu.edu",
+    "Phone": "(360) 241-4852",
+    "Portfolio": "https://github.com",
+    "LinkedIn": "https://www.linkedin.com/in/lucaswitthauer/",
+    "GitHub": "https://github.com/lucasw15"
+  },
+  "Experience": {
+    "ExperienceText": "Electrical Engineering student with hands-on experience in custom PCB design, embedded firmware, and power electronics gained through an industry internship and coursework. Strong foundation in circuit analysis, mathematics, and computer engineering, with experience working in a security-conscious, ITAR-controlled engineering environment.",
+    "School": "Seattle Pacific University",
+    "Major": "Electrical Engineering",
+    "Graduation": "June 2027",
+    "EducationText": "Computer Engineering Minor. GPA: 3.36. Recipient, Andy Grove Scholarship for Intel Employees' Children. Relevant coursework: Calculus I&ndash;III, Linear Algebra, Differential Equations, Physics I&ndash;III, Circuits I&ndash;II, Electronics, Electromagnetism, Computer Organization &amp; Assembly, Digital Logic Design, Microcontrollers, Object-Oriented Programming, and Data Structures.",
+    "Employment": "PowerLight Technologies &ndash; Kent, WA",
+    "Role": "Electrical Engineering Intern &middot; Summer 2026",
+    "EmploymentText": "<ul class=\"exp-list\"><li>Designed and laid out a custom multi-zone resistive heater PCB in Altium Designer, including schematic capture, footprint sourcing, and via treatment for a high-power power-electronics subsystem.</li><li>Selected and validated power components (MOSFETs, thermal isolation pads, high-current terminal blocks) for a multi-zone resistive heating and PWM switching architecture.</li><li>Developed C++ firmware for a Teensy 4.1 implementing multi-zone PWM control and closed-loop current sensing.</li><li>Built a companion Arduino/OLED visualization tool in Wokwi to model multi-zone power distribution profiles.</li><li>Bench-tested and validated PCB assemblies using lab power supplies and test equipment, working within an ITAR-controlled environment.</li></ul><br><strong>NCAA Division II Student-Athlete &ndash; Men's Soccer</strong>, Seattle Pacific University &middot; August 2023 &ndash; Present<br>Compete in the Great Northwest Athletic Conference while balancing 20+ hours/week of training, film review, travel, and competition with a full-time EE course load.",
+    "Skills": [
+      "C++",
+      "MicroPython",
+      "Python",
+      "Java",
+      "JavaScript",
+      "Assembly",
+      "Altium Designer",
+      "LTspice",
+      "Arduino IDE",
+      "Wokwi",
+      "Git/GitHub",
+      "Raspberry Pi",
+      "Microsoft Office"
+    ],
+    "SkillsText": "Core competencies: PCB design, power electronics, ITAR-controlled environments, circuit analysis, embedded systems, digital logic design, debugging, bench testing, and technical communication.",
+    "Resume": "Lucas_Witthauer_Resume.pdf"
+  },
+  "Project1": {
     "Title": "Bandpass Sallen Key IR Frequency Detector",
-    "Desc": "This project involved designing and implementing an active Sallen-Key bandpass filter used to condition signals from an infrared detection system. The filter was designed to pass signals within a specific frequency range corresponding to the modulated infrared signal while attenuating unwanted noise and ambient interference. The circuit uses an operational amplifier with resistors and capacitors configured in the Sallen-Key topology to create the desired center frequency and bandwidth. The filtered output signal is then fed into a comparator, which converts the analog signal into a digital output by detecting when the signal exceeds a specified threshold. This allows the system to reliably detect the presence of the infrared signal while rejecting noise and other frequency components. This project demonstrates practical applications of active filtering, signal conditioning, and analog-to-digital interfacing in optical sensing systems..",
+    "Desc": "This project involved designing and implementing an active Sallen-Key bandpass filter used to condition signals from an infrared detection system. The filter was designed to pass signals within a specific frequency range corresponding to the modulated infrared signal while attenuating unwanted noise and ambient interference. The circuit uses an operational amplifier with resistors and capacitors configured in the Sallen-Key topology to create the desired center frequency and bandwidth. The filtered output signal is then fed into a comparator, which converts the analog signal into a digital output by detecting when the signal exceeds a specified threshold. This allows the system to reliably detect the presence of the infrared signal while rejecting noise and other frequency components. This project demonstrates practical applications of active filtering, signal conditioning, and analog-to-digital interfacing in optical sensing systems.",
     "GitHubRepo": "",
     "MainImage": "IMG_9408.JPG",
-    "DetailImages": ["IMG_9426.JPG","IMG_9456.JPG"]
+    "DetailImages": [
+      "IMG_9426.JPG",
+      "IMG_9456.JPG"
+    ]
   },
   "Project2": {
-    "Title": "",
-    "Desc": "",
+    "Title": "Multi-Output Benchtop Power Supply",
+    "Desc": "Designed and prototyped a dual adjustable power supply PCB in Altium Designer delivering seven output rails, using LM317/LM337 adjustable regulators and UA7812/UA7912/UA7805 fixed regulators. Completed the full project cycle: LTspice simulation, breadboard validation, PCB fabrication, hardware testing, and formal technical documentation.",
     "GitHubRepo": "",
     "MainImage": "",
-    "DetailImages": ""
+    "DetailImages": []
   },
   "Project3": {
     "Title": "",

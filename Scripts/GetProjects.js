@@ -21,7 +21,11 @@ function updateHTML(configData) {
   
   projectTitle = configData.Project1.Title;
   if (projectTitle) {
-    document.querySelector("#pfProject1Img").src = "Content/".concat(configData.Project1.MainImage);
+    if (configData.Project1.MainImage) {
+      document.querySelector("#pfProject1Img").src = "Content/".concat(configData.Project1.MainImage);
+    } else {
+      document.querySelector("#project1 .project-image").style.display = "none";
+    }
     document.querySelector("#pfProject1Title").innerHTML = projectTitle;
     document.querySelector("#pfProject1Desc").innerHTML = configData.Project1.Desc;
     document.querySelector("#pfProject1Repo").href = configData.Project1.GitHubRepo;
@@ -37,7 +41,11 @@ function updateHTML(configData) {
   
   projectTitle = configData.Project2.Title;
   if (projectTitle) {
-    document.querySelector("#pfProject2Img").src = "Content/".concat(configData.Project2.MainImage);
+    if (configData.Project2.MainImage) {
+      document.querySelector("#pfProject2Img").src = "Content/".concat(configData.Project2.MainImage);
+    } else {
+      document.querySelector("#project2 .project-image").style.display = "none";
+    }
     document.querySelector("#pfProject2Title").innerHTML = projectTitle;
     document.querySelector("#pfProject2Desc").innerHTML = configData.Project2.Desc;
     document.querySelector("#pfProject2Repo").href = configData.Project2.GitHubRepo;
@@ -53,7 +61,11 @@ function updateHTML(configData) {
 
   projectTitle = configData.Project3.Title;
   if (projectTitle) {
-    document.querySelector("#pfProject3Img").src = "Content/".concat(configData.Project3.MainImage);
+    if (configData.Project3.MainImage) {
+      document.querySelector("#pfProject3Img").src = "Content/".concat(configData.Project3.MainImage);
+    } else {
+      document.querySelector("#project3 .project-image").style.display = "none";
+    }
     document.querySelector("#pfProject3Title").innerHTML = projectTitle;
     document.querySelector("#pfProject3Desc").innerHTML = configData.Project3.Desc;
     document.querySelector("#pfProject3Repo").href = configData.Project3.GitHubRepo;
@@ -69,7 +81,11 @@ function updateHTML(configData) {
   
   projectTitle = configData.Project4.Title;
   if (projectTitle) {
-    document.querySelector("#pfProject4Img").src = "Content/".concat(configData.Project4.MainImage);
+    if (configData.Project4.MainImage) {
+      document.querySelector("#pfProject4Img").src = "Content/".concat(configData.Project4.MainImage);
+    } else {
+      document.querySelector("#project4 .project-image").style.display = "none";
+    }
     document.querySelector("#pfProject4Title").innerHTML = projectTitle;
     document.querySelector("#pfProject4Desc").innerHTML = configData.Project4.Desc;
     document.querySelector("#pfProject4Repo").href = configData.Project4.GitHubRepo;
@@ -85,6 +101,7 @@ function updateHTML(configData) {
 }
 
 function addImages(imgs) {
+  slideIdx = 1; // always start each project's gallery at its first image
   // First remove any existing images
   let il = document.querySelector("#imgList");
   while(il.firstChild) il.removeChild(il.firstChild);
@@ -120,7 +137,7 @@ function showImages(n) {
   for (let i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
-  slides[slideIdx - 1].style.display = "block";
+  if (slides.length) slides[slideIdx - 1].style.display = "block";
 }
 
 document.querySelector("#openProject1").onclick = () => {
@@ -137,6 +154,12 @@ document.querySelector("#openProject2").onclick = () => {
 
 document.querySelector("#openProject3").onclick = () => {
   addImages(configData.Project3.DetailImages);
+  document.querySelector("#modalPage").style.display = "block";
+  showImages(slideIdx);
+}
+
+document.querySelector("#openProject4").onclick = () => {
+  addImages(configData.Project4.DetailImages);
   document.querySelector("#modalPage").style.display = "block";
   showImages(slideIdx);
 }
