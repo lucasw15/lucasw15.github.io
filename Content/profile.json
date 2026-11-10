@@ -54,8 +54,11 @@
     "Title": "Multi-Output Benchtop Power Supply",
     "Desc": "Designed and prototyped a dual adjustable power supply PCB in Altium Designer delivering seven output rails, using LM317/LM337 adjustable regulators and UA7812/UA7912/UA7805 fixed regulators. Completed the full project cycle: LTspice simulation, breadboard validation, PCB fabrication, hardware testing, and formal technical documentation.",
     "GitHubRepo": "",
-    "MainImage": "",
-    "DetailImages": []
+    "MainImage": "P2_Board.jpg",
+    "DetailImages": [
+      "P2_Board.jpg",
+      "P2_Altium.jpg"
+    ]
   },
   "Project3": {
     "Title": "",
